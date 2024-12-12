@@ -1,0 +1,19 @@
+[project]
+name = "livraria_front"
+version = "0.1.0"
+description = "front da atividade da livraria"
+authors = [
+    {name = "Julia Solano", email = "juliaduartesolano@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
